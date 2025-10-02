@@ -1,0 +1,14 @@
+C:\Users\MahreenWaseem\OneDrive - ODISEE\Bureaublad\ConsoleGangsterName\bin\Debug\net8.0\ConsoleGangsterName.exe
+C:\Users\MahreenWaseem\OneDrive - ODISEE\Bureaublad\ConsoleGangsterName\bin\Debug\net8.0\ConsoleGangsterName.deps.json
+C:\Users\MahreenWaseem\OneDrive - ODISEE\Bureaublad\ConsoleGangsterName\bin\Debug\net8.0\ConsoleGangsterName.runtimeconfig.json
+C:\Users\MahreenWaseem\OneDrive - ODISEE\Bureaublad\ConsoleGangsterName\bin\Debug\net8.0\ConsoleGangsterName.dll
+C:\Users\MahreenWaseem\OneDrive - ODISEE\Bureaublad\ConsoleGangsterName\bin\Debug\net8.0\ConsoleGangsterName.pdb
+C:\Users\MahreenWaseem\OneDrive - ODISEE\Bureaublad\ConsoleGangsterName\obj\Debug\net8.0\ConsoleGangsterName.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MahreenWaseem\OneDrive - ODISEE\Bureaublad\ConsoleGangsterName\obj\Debug\net8.0\ConsoleGangsterName.AssemblyInfoInputs.cache
+C:\Users\MahreenWaseem\OneDrive - ODISEE\Bureaublad\ConsoleGangsterName\obj\Debug\net8.0\ConsoleGangsterName.AssemblyInfo.cs
+C:\Users\MahreenWaseem\OneDrive - ODISEE\Bureaublad\ConsoleGangsterName\obj\Debug\net8.0\ConsoleGangsterName.csproj.CoreCompileInputs.cache
+C:\Users\MahreenWaseem\OneDrive - ODISEE\Bureaublad\ConsoleGangsterName\obj\Debug\net8.0\ConsoleGangsterName.dll
+C:\Users\MahreenWaseem\OneDrive - ODISEE\Bureaublad\ConsoleGangsterName\obj\Debug\net8.0\refint\ConsoleGangsterName.dll
+C:\Users\MahreenWaseem\OneDrive - ODISEE\Bureaublad\ConsoleGangsterName\obj\Debug\net8.0\ConsoleGangsterName.pdb
+C:\Users\MahreenWaseem\OneDrive - ODISEE\Bureaublad\ConsoleGangsterName\obj\Debug\net8.0\ConsoleGangsterName.genruntimeconfig.cache
+C:\Users\MahreenWaseem\OneDrive - ODISEE\Bureaublad\ConsoleGangsterName\obj\Debug\net8.0\ref\ConsoleGangsterName.dll

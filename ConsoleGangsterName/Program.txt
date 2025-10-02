@@ -1,0 +1,4 @@
+Console.Write("Voer je naam in: "); // vraag om de naam van de gebruiker (blijf op zelfde lijn)
+string naam = Console.ReadLine();   // lees de naam in en sla deze op in een variabele
+
+Console.WriteLine($"Hallo, {naam}"); // schrijf een boodschap naar de console
