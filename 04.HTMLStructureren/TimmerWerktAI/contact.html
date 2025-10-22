@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact – Timmerwerkt</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="afbeeldingen/logo.svg" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Wat</a></li>
+                <li><a href="#">Hoe</a></li>
+                <li><a href="#">Over</a></li>
+                <li><a href="#">Podcast</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <!-- Introductie Contact -->
+        <section id="contact-intro">
+            <h1>Contacteer Timmerwerkt</h1>
+            <p>Wil je meer informatie over wat we doen? Of een vrijblijvende offerte voor je volgende meubelproject? Vergeet niet je woonplaats en contactgegevens te vermelden. Zo kunnen we snel op jouw vraag reageren.</p>
+            <a href="#contact-form" class="btn">Vraag een aanbieding aan</a>
+        </section>
+        <img src="afbeeldingen/kleurenstrip.png" alt="">
+
+        <!-- Atelier adres -->
+        <section id="atelier">
+            <h2>Ons atelier</h2>
+            <p>Pantserschipstraat 155, 9000 Gent</p>
+            <p>Telefoon: +32 494 40 47 10</p>
+            <p>Email: <a href="mailto:info@timmerwerkt.be">info@timmerwerkt.be</a></p>
+        </section>
+
+        <!-- Contactformulier -->
+        <section id="contact-form">
+            <h2>Contactformulier</h2>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <label for="vraag">Je vraag *</label>
+                <textarea id="vraag" name="vraag" placeholder="Duidelijk omschrijven, eventueel met enkele foto's" required></textarea>
+
+                <label for="bestanden">Bestanden</label>
+                <input type="file" id="bestanden" name="bestanden">
+
+                <label for="regio">Regioadres *</label>
+                <input type="text" id="regio" name="regio" placeholder="b.v. Gent" required>
+
+                <label for="naam">Naam *</label>
+                <input type="text" id="naam" name="naam" required>
+
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="gsm">GSM/Telefoon *</label>
+                <input type="tel" id="gsm" name="gsm" required>
+
+                <label>
+                    <input type="checkbox" name="nieuwsbrief"> Ja, schrijf mij in voor de nieuwsbrief
+                </label>
+
+                <button type="submit">Verstuur</button>
+            </form>
+
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.8520511182696!2d4.776490286334735!3d51.12963696534892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1512222d557c7%3A0x3e350e83f42eac83!2sDoornestraat%2090%2C%202270%20Herenthout!5e0!3m2!1sen!2sbe!4v1761142878536!5m2!1sen!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <img src="afbeeldingen/kleurenstrip.png" alt="">
+        <!-- Nieuwsbrief -->
+        <section id="newsletter">
+            <h2>De Timmerwerkt nieuwsbrief</h2>
+            <p>Wil je graag op de hoogte blijven over Timmerwerkt? We sturen héél af en toe een mailtje, geen spam.</p>
+            <form>
+                <label for="newsletter-email">E-mailadres:</label>
+                <input type="email" id="newsletter-email" name="newsletter-email" placeholder="jouw@email.com">
+                <button type="submit">Inschrijven</button>
+            </form>
+        </section>
+
+        <!-- Extra adressen/kaart -->
+        <section id="extra-adressen">
+            <h2>Bezoek onze locaties</h2>
+            <p>Doornstraat 90, 9940 Evergem</p>
+            <a href="https://www.google.com/maps" target="_blank">Grotere kaart bekijken</a>
+        </section>
+    </main>
+
+      <!-- Footer -->
+        <footer>
+        <p>&copy; 2025 Timmerwerkt VZW | Doornstraat 90, 9940 Evergem</p>
+        <p>Email: <a href="mailto:info@timmerwerkt.site">info@timmerwerkt.site</a> | Tel: +32 456 61 85 05</p>
+        <div class="social-icons">
+           <a href="https://www.facebook.com/"><span class="fa-brands fa-facebook"></span></a>
+           <a href="https://www.youtube.com/"><span class="fa-brands fa-youtube"></span></a>
+           <a href="https://www.instagram.com/"><span class="fa-brands fa-instagram"></span></a>
+           <a href="https://www.pinterest.com/"><span class="fa-brands fa-pinterest"></span></a>
+
+        </div>
+    </footer>
+</body>
+</html>
