@@ -1,0 +1,85 @@
+/* stylelint-disable no-duplicate-selectors */
+
+/* ------------------------------
+   DEEL 1: Basisopmaak
+------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #fff;
+  background-image: url("../img/tile.png");
+  background-repeat: repeat;
+}
+
+body {
+  border: 10px solid white;
+  height: 600px;
+  margin: 20px auto;
+  max-width: 300px;
+  padding: 40px 100px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ------------------------------
+   DEEL 2: Lettertypes
+------------------------------ */
+h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 28px;
+  color: black;
+  margin-top: 30px;
+  text-transform: lowercase;
+}
+
+main, footer {
+  font-family: 'Indie Flower', cursive;
+}
+
+/* ------------------------------
+   DEEL 3: Tekstopmaak
+------------------------------ */
+main {
+  padding-top: 30px;
+  color: #233a88; /* blauw */
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.title {
+  color: black;
+}
+
+.heart {
+  color: red;
+  font-size: 1.5em;
+}
+
+.highlight {
+  color: black;
+  background-color: #f8cce5;
+  font-weight: bold;
+  padding: 2px 4px;
+  border-radius: 4px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  margin-top: 35px;
+  color: #233a88;
+  font-size: 14px;
+}
+
+/* ------------------------------
+   DEEL 4: Schaduwen
+------------------------------ */
+strong, em {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
