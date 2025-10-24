@@ -1,0 +1,57 @@
+/* stylelint-disable rule-empty-line-before */
+/* Horizontaal groen menu */
+#menu-hor-green {
+  background-color: #abdb4c;
+  font-family: Arial, sans-serif;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#menu-hor-green li a {
+  color: #444;
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-underline-offset: 4px;
+}
+
+#menu-hor-green li a:hover,
+#menu-hor-green li a:active {
+  text-decoration: underline;
+}
+
+/* Verticaal sociale media menu */
+#menu-social-vert {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  width: 50px;
+  margin-top: 20px;
+}
+
+#menu-social-vert li {
+  border-top: 1px solid #ccc;
+}
+
+#menu-social-vert a {
+  text-decoration: none;
+  display: block;
+}
+
+#menu-social-vert span {
+  color: #99c63f;
+  display: inline-block;
+  font-size: 24px;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+}
+
+#menu-social-vert span:hover,
+#menu-social-vert span:active {
+  color: #abdb4c;
+}
