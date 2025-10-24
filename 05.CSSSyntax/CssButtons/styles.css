@@ -1,0 +1,100 @@
+/* stylelint-disable rule-empty-line-before */
+
+/* --------------------------------
+   Algemene instellingen
+-------------------------------- */
+
+body {
+  font-family: Verdana, sans-serif;
+  padding: 40px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+/* --------------------------------
+   BUTTON GROEN
+-------------------------------- */
+.btn-groen {
+  display: inline-block;
+  background-color: #a8c24a;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  border-radius: 8px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.btn-groen::after {
+  content: " →";
+  font-size: 16px;
+  transition: margin-left 0.3s ease;
+}
+
+.btn-groen:hover {
+  background-color: #90a93e;
+  color: black; /* tekst wordt zwart op hover */
+}
+
+.btn-groen:hover::after {
+  margin-left: 5px;
+}
+
+/* --------------------------------
+   BUTTON FAVORIET
+-------------------------------- */
+.btn-favoriet {
+  display: inline-block;
+  background-color: #e7ddcc;
+  color: #8b0000;
+  text-decoration: none;
+  font-size: 24px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-favoriet:hover {
+  background-color: #d9c6af;
+  color: red;
+}
+
+/* --------------------------------
+   BUTTON TIKTOK
+-------------------------------- */
+.btn-tiktok {
+  display: inline-block;
+  background-color: #f1f1f1;
+  background-image: url("logo-tiktok.png");
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+  background-size: 40px;
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px 20px 20px 60px; /* ruimte links voor het logo */
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.btn-tiktok:hover {
+  text-decoration: underline; /* onderlijn op hover */
+}

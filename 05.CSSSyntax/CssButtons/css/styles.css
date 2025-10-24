@@ -1,0 +1,73 @@
+body {
+  font-family: Verdana, sans-serif;
+  padding: 40px;
+  background-color: #f0f0f0;
+}
+
+.button-row {
+  display: flex;
+  gap: 20px;
+}
+
+/* Algemene knopstijl */
+a {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* ✅ Button Groen */
+.button-groen {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  font-size: 14px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.button-groen:hover {
+  background-color: #388E3C;
+  cursor: pointer;
+}
+
+/* ❤️ Button Favoriet */
+.button-favoriet {
+  background-color: #f5f5f5;
+  color: brown;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.button-favoriet::before {
+  content: "♥";
+}
+
+.button-favoriet:hover {
+  color: red;
+  cursor: pointer;
+}
+
+/* 🎵 Button TikTok */
+.button-tiktok {
+  background-color: #fff;
+  background-image: url('tiktok-logo.png'); /* Zorg dat dit logo in je map staat */
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+  background-size: 20px 20px;
+  color: black;
+  padding: 10px 20px 10px 40px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.button-tiktok:hover {
+  color: gray;
+  text-decoration: underline;
+  cursor: pointer;
+}
