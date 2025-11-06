@@ -1,73 +1,97 @@
+/* --------------------------------
+   Algemene instellingen
+-------------------------------- */
 body {
   font-family: Verdana, sans-serif;
+  line-height: 1.6;
   padding: 40px;
-  background-color: #f0f0f0;
 }
 
-.button-row {
-  display: flex;
-  gap: 20px;
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
 }
 
-/* Algemene knopstijl */
-a {
-  display: inline-block;
-  text-decoration: none;
-  transition: all 0.3s ease;
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
 }
 
-/* ✅ Button Groen */
-.button-groen {
-  background-color: #4CAF50;
+/* --------------------------------
+   BUTTON GROEN
+-------------------------------- */
+.btn-groen {
+  background-color: #a8c24a;
+  border-radius: 8px;
   color: white;
-  padding: 12px 24px;
+  display: inline-block;
+  font-family: Verdana, sans-serif;
   font-size: 14px;
-  border-radius: 5px;
+  letter-spacing: 1px;
+  padding: 15px 40px;
+  text-decoration: none;
   text-transform: uppercase;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.button-groen:hover {
-  background-color: #388E3C;
-  cursor: pointer;
+.btn-groen::after {
+  content: " →";
+  font-size: 16px;
+  transition: margin-left 0.3s ease;
 }
 
-/* ❤️ Button Favoriet */
-.button-favoriet {
-  background-color: #f5f5f5;
-  color: brown;
-  font-size: 20px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
+.btn-groen:hover {
+  background-color: #90a93e;
+  color: black;
+}
+
+.btn-groen:hover::after {
+  margin-left: 5px;
+}
+
+/* --------------------------------
+   BUTTON FAVORIET
+-------------------------------- */
+.btn-favoriet {
+  background-color: #e7ddcc;
   border-radius: 50%;
+  color: #8b0000;
+  display: inline-block;
+  font-family: Verdana, sans-serif;
+  font-size: 24px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: 60px;
 }
 
-.button-favoriet::before {
-  content: "♥";
-}
-
-.button-favoriet:hover {
+.btn-favoriet:hover {
+  background-color: #d9c6af;
   color: red;
-  cursor: pointer;
 }
 
-/* 🎵 Button TikTok */
-.button-tiktok {
-  background-color: #fff;
-  background-image: url('tiktok-logo.png'); /* Zorg dat dit logo in je map staat */
-  background-repeat: no-repeat;
+/* --------------------------------
+   BUTTON TIKTOK
+-------------------------------- */
+.btn-tiktok {
+  background-color: #f1f1f1;
+  background-image: url("../logo-tiktok.png");
   background-position-x: 10px;
   background-position-y: center;
-  background-size: 20px 20px;
-  color: black;
-  padding: 10px 20px 10px 40px;
-  font-size: 14px;
-  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  color: #000;
+  display: inline-block;
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  padding: 20px 20px 20px 60px;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
-.button-tiktok:hover {
-  color: gray;
+.btn-tiktok:hover {
   text-decoration: underline;
-  cursor: pointer;
 }
