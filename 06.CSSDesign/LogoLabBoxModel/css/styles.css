@@ -1,0 +1,147 @@
+/* HEADER */
+header {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #eee;
+}
+
+#topbar {
+  margin-bottom: 20px;
+}
+
+nav li {
+  margin-right: 15px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+#slogan {
+  padding-right: 20px;
+}
+
+#einstein {
+  padding-left: 10px;
+}
+
+/* MAIN */
+main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* RECENTE ONTWERPEN */
+section {
+  margin-bottom: 40px;
+}
+
+.recent {
+  padding-top: 10px;
+}
+
+.logo {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-right: 20px;
+}
+
+.logo:last-child {
+  margin-right: 0;
+}
+
+.logo h3 {
+  margin-bottom: 10px;
+}
+
+.logo p {
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px 15px;
+}
+
+/* CONTACTEER ONS */
+aside {
+  padding-top: 10px;
+  border-left: 2px solid #eee;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+
+#bestelnu {
+  margin-bottom: 30px;
+}
+
+#social {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* zorgt voor gelijke afstand tussen de knoppen */
+}
+
+#social li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 90px;
+  border: 2px solid #ccc;
+  list-style: none;
+  text-align: center;
+}
+
+#social li:last-child {
+  margin-bottom: 0;
+}
+
+#social a {
+  color: #444;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+#social a:hover {
+  color: #000;
+}
+
+
+
+/* FOOTER */
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 2px solid #eee;
+  margin-top: 40px;
+}
+
+footer section {
+  padding-right: 30px;
+}
+
+footer section:last-child {
+  padding-right: 0;
+}
+
+footer h3 {
+  margin-bottom: 10px;
+}
+
+footer ul {
+  padding-left: 10px;
+}
+
+footer li {
+  padding-top: 7px;
+  padding-bottom: 8px;
+}
+
+footer li:last-child {
+  padding-bottom: 0;
+}
+
+
