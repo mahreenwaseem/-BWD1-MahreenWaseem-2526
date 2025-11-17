@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title>Over HTML</title>
+  <meta charset="utf-8">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
+</head>
+
+<body>
+
+  <header>
+    <img src="img/logo.png" alt="">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Contact</h1>
+    <p>Heb je een vraag, suggestie of wil je reserveren? Vul het formulier in en we nemen snel contact met je op.</p>
+    <form>
+      <div>
+        <label for="Email">E-mail *</label>
+        <input type="text" id="Email" autofocus placeholder="naam@voorbeeld.be" required>
+      </div>
+      <div>
+        <label for="onderwerp">Onderwerp: </label>
+        <select id="onderwerp">
+          <option value="-1">Algemene vraag</option>
+        </select>
+      </div>
+      <div>
+        <label for="message">Bericht:</label>
+        <textarea id="message" cols="40" rows="5" autofocus placeholder="Typ je boodschap..." required></textarea>
+      </div>
+      <div>
+        <label><input type="checkbox" value="a"> Ik wil de nieuwsbrief ontavngen</label>
+      </div>
+      <div>
+        <button type="submit">Verzenden</button>
+      </div>
+
+    </form>
+
+    <h2>Vind ons</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2517.4318696017785!2d4.695287686218002!3d50.878716783418966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c160d852bc75f7%3A0xbfccd7a307d34fa6!2sOude%20Markt%201%2C%203000%20Leuven!5e0!3m2!1sen!2sbe!4v1763392229108!5m2!1sen!2sbe"
+      width="600" height="450" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  </main>
+
+  <footer>
+      <address>
+         <span class="material-symbols-outlined">map</span>Oude Markt 1, 3000 Leuven <br>
+         <span class="material-symbols-outlined">mail</span> <a
+            href="mailto:hallo@caffeluna.tld">hallo@caffeluna.tld</a><br>
+         <span class="material-symbols-outlined">phone_in_talk</span><a href="tel:+32412345678">0412/34.56.78</a>
+      </address>
+      <small>© Caffè Luna - Alle rechten voorbehouden</small>
+   </footer>
+</body>
+
+</html>
